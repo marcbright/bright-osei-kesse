@@ -250,7 +250,7 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl px-6 text-center">
           <blockquote className="text-2xl md:text-3xl font-light italic mb-8">
             "Bright transformed our chaotic data into a clear story that drove our biggest strategic pivot. 
-            Her dashboards don't just show numbers—they reveal opportunities."
+            His dashboards don't just show numbers—they reveal opportunities."
           </blockquote>
           <div className="flex items-center justify-center">
             <img 
