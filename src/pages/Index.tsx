@@ -9,38 +9,37 @@ const Index = () => {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
   const projects = [
-    {
-      id: 1,
-      title: "Sales Performance Dashboard",
-      problem: "Regional sales team needed real-time visibility into performance metrics across 15 territories",
-      approach: "Built interactive Power BI dashboard with automated data refresh from multiple sources",
-      tools: ["Power BI", "SQL", "Excel"],
-      outcome: "Reduced reporting time from 8 hours to 15 minutes weekly",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-      metrics: "40+ hours saved monthly",
-      github: "https://github.com/brightoseikesse/sales-dashboard"
-    },
-    {
-      id: 2,
-      title: "Customer Churn Prediction",
-      problem: "High customer attrition rate with no early warning system",
-      approach: "Developed predictive model using Python to identify at-risk customers",
-      tools: ["Python", "SQL", "Tableau"],
-      outcome: "Identified 85% of churning customers 30 days in advance",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      metrics: "23% reduction in churn",
-      github: "https://github.com/brightoseikesse/churn-prediction"
-    },
+    // {
+    //   id: 1,
+    //   title: "Sales Performance Dashboard",
+    //   problem: "Regional sales team needed real-time visibility into performance metrics across 15 territories",
+    //   approach: "Built interactive Power BI dashboard with automated data refresh from multiple sources",
+    //   tools: ["Power BI", "SQL", "Excel"],
+    //   outcome: "Reduced reporting time from 8 hours to 15 minutes weekly",
+    //   image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    //   metrics: "40+ hours saved monthly",
+    //   github: "https://github.com/brightoseikesse/sales-dashboard"
+    // },
+    // {
+    //   id: 2,
+    //   title: "Customer Churn Prediction",
+    //   problem: "High customer attrition rate with no early warning system",
+    //   approach: "Developed predictive model using Python to identify at-risk customers",
+    //   tools: ["Python", "SQL", "Tableau"],
+    //   outcome: "Identified 85% of churning customers 30 days in advance",
+    //   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+    //   metrics: "23% reduction in churn",
+    //   github: "https://github.com/brightoseikesse/churn-prediction"
+    // },
     {
       id: 3,
-      title: "Inventory Optimization",
-      problem: "Excess inventory tying up $2M in working capital",
-      approach: "Analyzed 3 years of sales data to optimize stock levels using statistical forecasting",
-      tools: ["Python", "Excel", "SQL"],
-      outcome: "Reduced inventory by 30% while maintaining 99% service level",
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop",
-      metrics: "$600K capital freed",
-      github: "https://github.com/brightoseikesse/inventory-optimization"
+      title: "EPL Football Data Analysis",
+      problem: "Unstructured and raw English Premier League (EPL) football match data, difficult to query and derive insights from efficiently.",
+      approach: "Cleaned and transformed historical EPL match data from CSV into a structured PostgreSQL database. Developed a comprehensive set of SQL queries, categorized by difficulty (Beginner, Intermediate, Advanced), to extract performance metrics, analyze team statistics, and simulate league standings.",
+      tools: ["PostgreSQL", "SQL"],
+      outcome: "Created a robust and queryable database for EPL data, enabling efficient analysis of team performance, match outcomes, and historical trends.",
+      image: "https://images.unsplash.com/photo-1706675780103-3ca1f89143a0?q=80&w=689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      github: "https://github.com/marcbright/EPL_Football_Analysis_SQL"
     }
   ];
 
@@ -126,7 +125,7 @@ const Index = () => {
               <div className="relative">
                 <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 to-amber-400 p-1">
                   <img 
-                    src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face" 
+                    src="https://pbs.twimg.com/media/GYG_qyqWkAAetKH?format=jpg&name=900x900" 
                     alt="Bright Osei Kesse" 
                     className="w-full h-full rounded-full object-cover"
                   />
@@ -250,7 +249,7 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl px-6 text-center">
           <blockquote className="text-2xl md:text-3xl font-light italic mb-8">
             "Bright transformed our chaotic data into a clear story that drove our biggest strategic pivot. 
-            His dashboards don't just show numbers—they reveal opportunities."
+            His dashboards don't just show numbers they reveal opportunities."
           </blockquote>
           <div className="flex items-center justify-center">
             <img 
