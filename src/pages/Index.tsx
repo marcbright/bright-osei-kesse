@@ -20,17 +20,17 @@ const Index = () => {
     //   metrics: "40+ hours saved monthly",
     //   github: "https://github.com/brightoseikesse/sales-dashboard"
     // },
-    // {
-    //   id: 2,
-    //   title: "Customer Churn Prediction",
-    //   problem: "High customer attrition rate with no early warning system",
-    //   approach: "Developed predictive model using Python to identify at-risk customers",
-    //   tools: ["Python", "SQL", "Tableau"],
-    //   outcome: "Identified 85% of churning customers 30 days in advance",
-    //   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-    //   metrics: "23% reduction in churn",
-    //   github: "https://github.com/brightoseikesse/churn-prediction"
-    // },
+    {
+      id: 2,
+      title: "TikTok EDA Project",
+      problem: "The purpose of this project is to conduct exploratory data analysis (EDA) on a provided data set.",
+      approach: "The goal is to explore the dataset and create visualizations.",
+      tools: ["Python", "Jupyter Notebook", "Seaborn", "Matplotlib"],
+      outcome: " comprehensive analysis and visualization of a provided dataset, aimed at understanding the key differences between claim and opinion videos.",
+      image: "https://images.unsplash.com/photo-1597075095400-fb3f0de70140?q=80&w=689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      metrics: "",
+      github: "https://github.com/marcbright/tiktok-EDA"
+    },
     {
       id: 3,
       title: "EPL Football Data Analysis",
@@ -253,7 +253,7 @@ const Index = () => {
           </blockquote>
           <div className="flex items-center justify-center">
             <img 
-              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face" 
+              src="https://media.licdn.com/dms/image/v2/D4D03AQGvossODlu_sw/profile-displayphoto-shrink_800_800/B4DZPyzA7dGgAc-/0/1734945282681?e=1755734400&v=beta&t=7voDGsXl-d1LCD9gIapbjVZpLpo-FAG02hFm7y32JLw" 
               alt="Client testimonial"
               className="w-12 h-12 rounded-full mr-4"
             />
