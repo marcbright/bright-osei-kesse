@@ -346,7 +346,7 @@ const Index = () => {
                   </Button>
                 </a>
                 <a
-                  href="https://linkedin.com/in/bright-osei-kesse/"
+                  href="  "
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: 'none' }}
@@ -372,13 +372,13 @@ const Index = () => {
             <h3 className="text-2xl font-bold mb-4">Bright Osei Kesse</h3>
             <p className="text-gray-400 mb-6">Data Analyst | Storyteller | Problem Solver</p>
             <div className="flex justify-center space-x-6">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://linkedin.com/in/bright-osei-kesse/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/marcbright" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="GitHub">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:marcbright2015@gmail.com" className="text-gray-400 hover:text-white transition-colors" aria-label="Email">
                 <Mail className="w-6 h-6" />
               </a>
             </div>
