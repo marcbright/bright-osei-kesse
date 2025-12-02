@@ -40,6 +40,16 @@ const Index = () => {
       outcome: "Created a robust and queryable database for EPL data, enabling efficient analysis of team performance, match outcomes, and historical trends.",
       image: "https://images.unsplash.com/photo-1706675780103-3ca1f89143a0?q=80&w=689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       github: "https://github.com/marcbright/EPL_Football_Analysis_SQL"
+    },
+    {
+      id: 4,
+      title: "Bank Term Deposit Subscription Predictor",
+      problem: "Banks conduct phone-based marketing campaigns for term deposits, but achieve only 11% conversion rates. ",
+      approach: "I conducted extensive data preparation, including EDA, outlier management, and feature engineering, then successfully trained and deployed an optimized Random Forest model achieving high performance metrics (94% accuracy, 0.99 AUC) via a Streamlit application",
+      tools: ["Python", "Pandas", "Numpy", "Matplotlib & Seaborn","Imbalanced-learn","Joblib", "Scikit-learn", "Streamlit"],
+      outcome: "The project developed and deployed an interactive Streamlit application using a high-performing Random Forest model (94% accuracy, 0.99 AUC) to reliably predict term deposit subscriptions, enabling the bank's marketing teams to prioritize client outreach and significantly improve conversion efficiency.",
+      image: "https://plus.unsplash.com/premium_photo-1755300440761-b8379beb3e10?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      github: "https://bank-predictor.streamlit.app/"
     }
   ];
 
