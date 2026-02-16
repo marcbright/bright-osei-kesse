@@ -9,17 +9,17 @@ const Index = () => {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
   const projects = [
-    // {
-    //   id: 1,
-    //   title: "Sales Performance Dashboard",
-    //   problem: "Regional sales team needed real-time visibility into performance metrics across 15 territories",
-    //   approach: "Built interactive Power BI dashboard with automated data refresh from multiple sources",
-    //   tools: ["Power BI", "SQL", "Excel"],
-    //   outcome: "Reduced reporting time from 8 hours to 15 minutes weekly",
-    //   image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-    //   metrics: "40+ hours saved monthly",
-    //   github: "https://github.com/brightoseikesse/sales-dashboard"
-    // },
+    {
+      id: 1,
+      title: "Sample SuperStore Dashboard",
+      problem: "Lack of a centralized, reliable view of business performance made it difficult to monitor sales growth, profitability, customer value, product performance, and operational efficiency across time and regions.",
+      approach: "Designed and implemented a full enterprise, multi-page Power BI dashboard using a clean star schema model. Data was cleaned and transformed in Power Query, split into fact and dimension tables (Customer, Product, Geography, Date), and enriched with validated DAX measures for sales, profit, margins, time intelligence, product profitability, customer segmentation, and operational performance. Built five analytical pages covering Executive Overview, Time Intelligence, Product Performance, Customer Segmentation, and Operations & Logistics, with slicer-driven interactivity and consistent KPIs.",
+      tools: ["Power BI", "SQL", "Excel"],
+      outcome: "Delivered a scalable, executive-ready analytics solution that provides real-time insight into revenue, profitability, customer value, product portfolio health, and operational efficiency, enabling data-driven decision-making, improved performance tracking, and faster identification of growth opportunities and cost leakages.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      // metrics: "40+ hours saved monthly",
+      github: "https://app.powerbi.com/groups/me/reports/992dc371-0330-4295-96a3-b185ee531009/368f083794102062c99b?experience=power-bi&clientSideAuth=0"
+    },
     {
       id: 2,
       title: "TikTok EDA Project",
