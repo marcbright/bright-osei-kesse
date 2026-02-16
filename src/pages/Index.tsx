@@ -56,7 +56,7 @@ const Index = () => {
   const skills = [
     { name: "Python", icon: Code, level: 90 },
     { name: "SQL", icon: Database, level: 95 },
-    { name: "Power BI", icon: BarChart3, level: 85 },
+    { name: "Power BI", icon: BarChart3, level: 90 },
     { name: "Excel", icon: FileSpreadsheet, level: 90 },
     { name: "Tableau", icon: TrendingUp, level: 80 },
     { name: "Machine Learning", icon: Brain, level: 80 }
@@ -96,9 +96,8 @@ const Index = () => {
                 <span className="text-blue-600"> Stories</span>
               </h2>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Hi!, I'm Bright a data analyst who believes every dataset has a story waiting to be told. 
-                I spend my days diving into numbers, building dashboards, and finding those "aha!" moments that 
-                drive real business impact.
+                Hi!, I'm Bright a certified Advanced Google data analyst who believes every dataset has a story waiting to be told. 
+                I spend my days diving into numbers, building dashboards, and finding those "aha!" moments that drive real business impact.
               </p>
               <p className="text-lg text-gray-600 mb-8">
                 When I'm not wrestling with SQL queries or creating visualizations, you'll find me exploring 
@@ -118,8 +117,8 @@ const Index = () => {
                   </Button>
                 </a>
                 <a
-                  href="/Bright-Osei-Kesse-Resume.pdf"
-                  download="Bright-Osei-Kesse-Resume.pdf"
+                  href="/Bright_Osei_Kesse_Resume.pdf"
+                  download="Bright_Osei_Kesse_Resume.pdf"
                   style={{ textDecoration: 'none' }}
                   tabIndex={0}
                   aria-label="Download Resume PDF"
@@ -263,7 +262,7 @@ const Index = () => {
           </blockquote>
           <div className="flex items-center justify-center">
             <img 
-              src="https://media.licdn.com/dms/image/v2/D4D03AQGvossODlu_sw/profile-displayphoto-shrink_800_800/B4DZPyzA7dGgAc-/0/1734945282681?e=1755734400&v=beta&t=7voDGsXl-d1LCD9gIapbjVZpLpo-FAG02hFm7y32JLw" 
+              src="https://media.licdn.com/dms/image/v2/C4E03AQHzxNRfpJOK4Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1661724599906?e=1772668800&v=beta&t=NBoG33RPuNzT4_KBpEej6hDtU9bQmowYYhp8pGtjcOk" 
               alt="Client testimonial"
               className="w-12 h-12 rounded-full mr-4"
             />
