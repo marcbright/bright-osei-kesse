@@ -13,7 +13,7 @@ const Index = () => {
       id: 1,
       title: "Sample SuperStore Dashboard",
       problem: "Lack of a centralized, reliable view of business performance made it difficult to monitor sales growth, profitability, customer value, product performance, and operational efficiency across time and regions.",
-      approach: "Designed and implemented a full enterprise, multi-page Power BI dashboard using a clean star schema model. Data was cleaned and transformed in Power Query, split into fact and dimension tables (Customer, Product, Geography, Date), and enriched with validated DAX measures for sales, profit, margins, time intelligence, product profitability, customer segmentation, and operational performance. Built five analytical pages covering Executive Overview, Time Intelligence, Product Performance, Customer Segmentation, and Operations & Logistics, with slicer-driven interactivity and consistent KPIs.",
+      approach: "Designed and implemented a full enterprise, multi-page Power BI dashboard using a clean star schema model. Data was cleaned and transformed in Power Query, split into fact and dimension tables, and enriched with validated DAX measures. Built five analytical pages with slicer-driven interactivity and consistent KPIs.",
       tools: ["Power BI", "Power Query", "DAX", "Star Schema Modeling"],
       outcome: "Delivered a scalable, executive-ready analytics solution that provides real-time insight into revenue, profitability, customer value, product portfolio health, and operational efficiency, enabling data-driven decision-making, improved performance tracking, and faster identification of growth opportunities and cost leakages.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
@@ -54,12 +54,12 @@ const Index = () => {
   ];
 
   const skills = [
+    { name: "Machine Learning", icon: Brain, level: 90 },
     { name: "Python", icon: Code, level: 90 },
+    { name: "Power BI", icon: BarChart3, level: 95 },
     { name: "SQL", icon: Database, level: 95 },
-    { name: "Power BI", icon: BarChart3, level: 90 },
-    { name: "Excel", icon: FileSpreadsheet, level: 90 },
+    { name: "Excel", icon: FileSpreadsheet, level: 95 },
     { name: "Tableau", icon: TrendingUp, level: 80 },
-    { name: "Machine Learning", icon: Brain, level: 80 }
   ];
 
   const impacts = [
@@ -267,8 +267,8 @@ const Index = () => {
               className="w-12 h-12 rounded-full mr-4"
             />
             <div className="text-left">
-              <p className="font-semibold">Prescott Nyamekye</p>
-              <p className="text-blue-200">Assistant Lecturer, GI-KACE</p>
+              <p className="font-semibold">Dr. Collins Yeboah-Afari</p>
+              <p className="text-blue-200">Director General, GI-KACE</p>
             </div>
           </div>
         </div>
