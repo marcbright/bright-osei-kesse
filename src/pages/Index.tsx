@@ -14,11 +14,21 @@ const Index = () => {
       title: "Sample SuperStore Dashboard",
       problem: "Lack of a centralized, reliable view of business performance made it difficult to monitor sales growth, profitability, customer value, product performance, and operational efficiency across time and regions.",
       approach: "Designed and implemented a full enterprise, multi-page Power BI dashboard using a clean star schema model. Data was cleaned and transformed in Power Query, split into fact and dimension tables (Customer, Product, Geography, Date), and enriched with validated DAX measures for sales, profit, margins, time intelligence, product profitability, customer segmentation, and operational performance. Built five analytical pages covering Executive Overview, Time Intelligence, Product Performance, Customer Segmentation, and Operations & Logistics, with slicer-driven interactivity and consistent KPIs.",
-      tools: ["Power BI", "SQL", "Excel"],
+      tools: ["Power BI", "Power Query", "DAX", "Star Schema Modeling"],
       outcome: "Delivered a scalable, executive-ready analytics solution that provides real-time insight into revenue, profitability, customer value, product portfolio health, and operational efficiency, enabling data-driven decision-making, improved performance tracking, and faster identification of growth opportunities and cost leakages.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
       // metrics: "40+ hours saved monthly",
       github: "https://app.powerbi.com/groups/me/reports/992dc371-0330-4295-96a3-b185ee531009/368f083794102062c99b?experience=power-bi&clientSideAuth=0"
+    },
+    {
+      id: 4,
+      title: "Bank Term Deposit Subscription Predictor",
+      problem: "Banks conduct phone-based marketing campaigns for term deposits, but achieve only 11% conversion rates. ",
+      approach: "I conducted extensive data preparation, including EDA, outlier management, and feature engineering, then successfully trained and deployed an optimized Random Forest model achieving high performance metrics (94% accuracy, 0.99 AUC) via a Streamlit application",
+      tools: ["Python", "Pandas", "Numpy", "Matplotlib & Seaborn","Imbalanced-learn","Joblib", "Scikit-learn", "Streamlit"],
+      outcome: "The project developed and deployed an interactive Streamlit application using a high-performing Random Forest model (94% accuracy, 0.99 AUC) to reliably predict term deposit subscriptions, enabling the bank's marketing teams to prioritize client outreach and significantly improve conversion efficiency.",
+      image: "https://plus.unsplash.com/premium_photo-1755300440761-b8379beb3e10?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      github: "https://bank-predictor.streamlit.app/"
     },
     {
       id: 2,
@@ -40,16 +50,6 @@ const Index = () => {
       outcome: "Created a robust and queryable database for EPL data, enabling efficient analysis of team performance, match outcomes, and historical trends.",
       image: "https://images.unsplash.com/photo-1706675780103-3ca1f89143a0?q=80&w=689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       github: "https://github.com/marcbright/EPL_Football_Analysis_SQL"
-    },
-    {
-      id: 4,
-      title: "Bank Term Deposit Subscription Predictor",
-      problem: "Banks conduct phone-based marketing campaigns for term deposits, but achieve only 11% conversion rates. ",
-      approach: "I conducted extensive data preparation, including EDA, outlier management, and feature engineering, then successfully trained and deployed an optimized Random Forest model achieving high performance metrics (94% accuracy, 0.99 AUC) via a Streamlit application",
-      tools: ["Python", "Pandas", "Numpy", "Matplotlib & Seaborn","Imbalanced-learn","Joblib", "Scikit-learn", "Streamlit"],
-      outcome: "The project developed and deployed an interactive Streamlit application using a high-performing Random Forest model (94% accuracy, 0.99 AUC) to reliably predict term deposit subscriptions, enabling the bank's marketing teams to prioritize client outreach and significantly improve conversion efficiency.",
-      image: "https://plus.unsplash.com/premium_photo-1755300440761-b8379beb3e10?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      github: "https://bank-predictor.streamlit.app/"
     }
   ];
 
