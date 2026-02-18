@@ -379,7 +379,8 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl px-6">
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4">Bright Osei Kesse</h3>
-            <p className="text-gray-400 mb-6">Data Analyst | Storyteller | Problem Solver</p>
+            <p className="text-gray-400 mb-6">Lecturer | Data Engineer | 
+              Data Analyst | Data Storyteller | Problem Solver</p>
             <div className="flex justify-center space-x-6">
               <a href="https://linkedin.com/in/bright-osei-kesse/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
                 <Linkedin className="w-6 h-6" />
@@ -393,7 +394,7 @@ const Index = () => {
             </div>
             <div className="mt-8 pt-8 border-t border-gray-800">
               <p className="text-gray-400 text-sm">
-                © 2024 Bright Osei Kesse. Built with passion for data and a love for clean code.
+                © 2026 Bright Osei Kesse. Built with passion for data and a love for clean code.
               </p>
             </div>
           </div>
