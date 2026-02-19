@@ -118,10 +118,8 @@ const Index = () => {
                 </a>
                 <a
                   href="/Bright_Osei_Kesse_Resume.pdf"
-                  download="Bright_Osei_Kesse_Resume.pdf"
+                  download
                   style={{ textDecoration: 'none' }}
-                  tabIndex={0}
-                  aria-label="Download Resume PDF"
                 >
                   <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50" type="button">
                     <Download className="w-4 h-4 mr-2" />
@@ -342,11 +340,9 @@ const Index = () => {
                   </Button>
                 </a>
                 <a
-                  href="/Bright-Osei-Kesse-Resume.pdf"
-                  download="Bright-Osei-Kesse-Resume.pdf"
+                  href="/Bright_Osei_Kesse_Resume.pdf"
+                  download
                   style={{ textDecoration: 'none' }}
-                  tabIndex={0}
-                  aria-label="Download Resume PDF"
                   className="block w-full mb-4"
                 >
                   <Button variant="outline" className="w-full border-blue-600 text-blue-600 hover:bg-blue-50" type="button">
@@ -379,8 +375,8 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl px-6">
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4">Bright Osei Kesse</h3>
-            <p className="text-gray-400 mb-6">Lecturer | Data Engineer | 
-              Data Analyst | Data Storyteller | Problem Solver</p>
+            <p className="text-gray-400 mb-6">Lecturer | Data Scientist | 
+              Data Analyst | Problem Solver</p>
             <div className="flex justify-center space-x-6">
               <a href="https://linkedin.com/in/bright-osei-kesse/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
                 <Linkedin className="w-6 h-6" />
@@ -394,7 +390,7 @@ const Index = () => {
             </div>
             <div className="mt-8 pt-8 border-t border-gray-800">
               <p className="text-gray-400 text-sm">
-                © 2026 Bright Osei Kesse. Built with passion for data and a love for clean code.
+                © 2026 Bright Osei Kesse.
               </p>
             </div>
           </div>
