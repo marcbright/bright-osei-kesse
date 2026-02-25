@@ -351,7 +351,7 @@ const Index = () => {
                   </Button>
                 </a>
                 <a
-                  href="  "
+                  href="https://linkedin.com/in/bright-osei-kesse/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: 'none' }}
